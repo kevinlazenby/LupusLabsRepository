@@ -1,4 +1,4 @@
-package edu.bme3890.displayname;
+package edu.bme3890.LupusLabs;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -7,8 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import edu.bme3890.displayname.EmailActivity;
-import edu.bme3890.displayname.R;
+import edu.bme3890.LupusLabs.R;
 
 public class MainActivity extends AppCompatActivity {
     private Button button;

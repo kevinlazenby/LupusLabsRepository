@@ -1,4 +1,4 @@
-package edu.bme3890.displayname;
+package edu.bme3890.LupusLabs;
 
 import android.content.Context;
 
