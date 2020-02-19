@@ -9,51 +9,58 @@
 
     <TextView
         android:id="@+id/diseaseTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
+        android:layout_width="352dp"
+        android:layout_height="48dp"
         android:gravity="center"
-        android:text="A Lupus Nephritis App"
+        android:text="An App for People with Lupus Nephritis"
         android:textColor="#23253C"
-        android:textSize="30sp"
+        android:textSize="18sp"
         app:fontFamily="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.559"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
 
     <TextView
         android:id="@+id/teamMemberTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="180dp"
+        android:layout_width="408dp"
+        android:layout_height="64dp"
         android:gravity="center"
-        android:text="Barrett Fix\nKevin Lazenby\nConner Vastola"
+        android:text="Barrett Fix\tKevin Lazenby\tConner Vastola"
         android:textColor="#253342"
-        android:textSize="22sp"
+        android:textSize="18sp"
+        app:fontFamily="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/diseaseTextView" />
-
-    <Button
-        android:id="@+id/button_send_email"
-        android:layout_width="167dp"
-        android:layout_height="68dp"
-        android:background="#95CCF0"
-        android:text="Send Email"
-        android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/teamMemberTextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/diseaseTextView" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.975" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.49"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.064"
+        app:srcCompat="@drawable/app_logo" />
+
+    <Button
+        android:id="@+id/mainMenuButton"
+        android:layout_width="167dp"
+        android:layout_height="68dp"
+        android:background="#95CCF0"
+        android:onClick="openMainMenuActivity"
+        android:text="Main Menu"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/app_logo" />
+        app:layout_constraintVertical_bias="0.725" />
 </androidx.constraintlayout.widget.ConstraintLayout>
