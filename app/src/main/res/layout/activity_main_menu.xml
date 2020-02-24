@@ -41,7 +41,7 @@
         android:layout_height="68dp"
         android:background="#95CCF0"
         android:onClick="openEmailActivity"
-        android:text="Redcap"
+        android:text="Send Email"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
