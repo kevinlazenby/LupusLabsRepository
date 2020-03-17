@@ -2,6 +2,7 @@ package edu.bme3890.LupusLabs;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.app.Activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -33,8 +34,23 @@ public class MainMenuActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void openEmailActivity(View v) {
-        Intent intent = new Intent(this, EmailActivity.class);
+    public void openNewTestActivity(View v) {
+        Intent intent = new Intent(this, NewTestActivity.class);
+        startActivity(intent);
+    }
+
+    public void openMainActivity(View v) {
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
+    }
+
+    public void openOldTestsActivity(View v) {
+        Intent intent = new Intent(this, OldTestsActivity.class);
+        startActivity(intent);
+    }
+
+    public void openRedcapActivity(View v) {
+        Intent intent = new Intent(this, RedcapActivity.class);
         startActivity(intent);
     }
 }

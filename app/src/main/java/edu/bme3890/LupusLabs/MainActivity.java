@@ -24,4 +24,14 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, MainMenuActivity.class);
         startActivity(intent);
     }
+
+    public void openCreateAccountActivity(View v) {
+        Intent intent = new Intent(this, CreateAccountActivity.class);
+        startActivity(intent);
+    }
+
+    public void openForgotPasswordActivity(View v) {
+        Intent intent = new Intent(this, ForgotPasswordActivity.class);
+        startActivity(intent);
+    }
 }

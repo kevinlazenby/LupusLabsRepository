@@ -9,14 +9,30 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".InstructionsActivity"
-            android:parentActivityName=".MainMenuActivity"></activity>
+        <activity
+            android:name=".ForgotPasswordActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".CreateAccountActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".RedcapActivity"
+            android:parentActivityName=".MainMenuActivity" />
+        <activity
+            android:name=".OldTestsActivity"
+            android:parentActivityName=".MainMenuActivity" />
+        <activity
+            android:name=".NewTestActivity"
+            android:parentActivityName=".MainMenuActivity" />
+        <activity
+            android:name=".InstructionsActivity"
+            android:parentActivityName=".MainMenuActivity" />
         <activity
             android:name=".MainMenuActivity"
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".EmailActivity"
-            android:parentActivityName=".MainMenuActivity" />
+            android:parentActivityName=".OldTestsActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

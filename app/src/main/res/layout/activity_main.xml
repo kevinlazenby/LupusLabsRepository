@@ -42,12 +42,12 @@
 
     <Button
         android:id="@+id/loginButton"
-        android:layout_width="167dp"
-        android:layout_height="68dp"
+        android:layout_width="114dp"
+        android:layout_height="41dp"
         android:background="#95CCF0"
         android:onClick="openMainMenuActivity"
         android:text="Login"
-        android:textSize="24sp"
+        android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -82,9 +82,10 @@
 
     <Button
         android:id="@+id/forgotPwdButton"
-        android:layout_width="125dp"
-        android:layout_height="50dp"
+        android:layout_width="114dp"
+        android:layout_height="41dp"
         android:background="#95CCF0"
+        android:onClick="openForgotPasswordActivity"
         android:text="Forgot password?"
         android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -96,10 +97,12 @@
 
     <Button
         android:id="@+id/createAccButton"
-        android:layout_width="125dp"
-        android:layout_height="50dp"
+        android:layout_width="114dp"
+        android:layout_height="41dp"
         android:background="#95CCF0"
+        android:onClick="openCreateAccountActivity"
         android:text="Create Account"
+        android:textSize="14sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.136"
